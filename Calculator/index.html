@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="Style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="calculator">
+
+        <div class="calculator-screen" data-operand-current></div>
+
+        <div class="calculator-keys">
+            <button class="operator" data-operation>+</button>
+            <button class="operator" data-operation>-</button>
+            <button class="operator" data-operation>&times;</button>
+            <button class="operator" data-operation>&divide;</button>
+
+            <button class="data-number" data-number>7</button>
+            <button class="data-number" data-number>8</button>
+            <button class="data-number" data-number>9</button>
+
+            <button class="data-number" data-number>4</button>
+            <button class="data-number" data-number>5</button>
+            <button class="data-number" data-number>6</button>
+
+            <button class="data-number" data-number>1</button>
+            <button class="data-number" data-number>2</button>
+            <button class="data-number" data-number>3</button>
+
+
+            <button class="data-number" data-number>0</button>
+            <button class="data-number" data-number>.</button>
+            <button class="all-clear" data-all-clear>AC</button>
+
+            <button class="equal-sign" data-equals>=</button>
+
+        </div>
+
+
+    </div>
+    <script src="functions.js" defer></script>
+    <div class="history">
+        <table>
+            <thead>
+                <th>History</th>
+            </thead>
+            <tbody id="history-body"></tbody>
+        </table>
+    </div>
+</body>
+
+</html>
